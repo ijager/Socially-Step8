@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "target": "es5",
+    "isolatedModules": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "removeComments": false,
+    "noImplicitAny": false,
+    "sourceMap": true
+  },
+  "filesGlob": [
+    "client/**/*.ts",
+    "server/**/*.ts",
+    "typings/**/*.d.ts",
+    "collections/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "client/app.ts",
+    "client/dummy.ts",
+    "client/imports/parties-form/parties-form.ts",
+    "client/imports/parties-list/parties-list.ts",
+    "client/imports/party-details/party-details.ts",
+    "server/load-parties.ts",
+    "server/main.ts",
+    "typings/browser.d.ts",
+    "typings/browser/ambient/es6-shim/index.d.ts",
+    "typings/browser/ambient/meteor/index.d.ts",
+    "typings/browser/definitions/es6-promise/index.d.ts",
+    "typings/main.d.ts",
+    "typings/main/ambient/es6-shim/index.d.ts",
+    "typings/main/ambient/meteor/index.d.ts",
+    "typings/main/definitions/es6-promise/index.d.ts",
+    "collections/parties.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}
